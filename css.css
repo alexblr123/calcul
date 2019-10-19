@@ -1,0 +1,35 @@
+#block {
+    padding: 0%;
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    
+}
+#input {
+    height: 100px;
+    width: 600px;
+    border: 1px solid black;
+}
+#button-block {
+    display: grid;
+    width: 600px; height:200px;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+.button {
+    border-style: unset;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buts {
+    background-color: aquamarine;
+    border-radius:15px;
+    border: black 1px solid;
+}
+#text {
+    width:595px;
+    height:96px;
+
+}
